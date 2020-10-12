@@ -1,0 +1,76 @@
+.admin-panel-header {
+  background-color: #2d69dc;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.admin-panel-header-menu-icon > .MuiSvgIcon-root {
+  font-size: 2em;
+  margin-bottom: -10px;
+}
+
+.admin-panel-header-title > h1 {
+  font-weight: 350;
+  font-size: 2em;
+  width: 100%;
+}
+
+/* 6 squares icon */
+.admin-panel-header-app-icon > .MuiSvgIcon-root {
+  margin-bottom: -10px;
+  font-size: 2.4em;
+}
+
+/* avatar */
+.admin-panel-header-avatar > p {
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+.admin-panel-header-avatar {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #5952ab;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-panel-header-avatar-container {
+  position: relative;
+
+  width: 3em;
+  margin-bottom: -0.3em;
+}
+.admin-panel-header-head {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5em;
+}
+
+.admin-panel-header-tail {
+  flex: 8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admin-panel-header-searchbar {
+  flex: 5;
+  margin-left: 1%;
+}
+.dummy{
+  flex: 2;
+}
+.admin-panel-header-right {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
